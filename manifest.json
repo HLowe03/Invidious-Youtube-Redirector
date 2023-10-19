@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "My Chrome Extension",
-    "version": "1.0",
-    "description": "A basic Chrome extension",
+    "name": "Invidious Context Menu",
+    "version": "0.1",
+    "description": "Adds a option in the context menu to open a new Invidious tab from the right-clicked link.",
     "permissions": ["activeTab", "contextMenus"],
     "action": {
       "default_popup": "popup.html",
