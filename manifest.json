@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Invidious Context Menu",
-    "version": "0.1",
+    "version": "0.2",
     "description": "Adds a option in the context menu to open a new Invidious tab from the right-clicked link.",
     "permissions": ["activeTab", "contextMenus"],
     "action": {
