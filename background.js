@@ -15,8 +15,9 @@ chrome.runtime.onInstalled.addListener(() => {
   //create context menu
   chrome.contextMenus.create({
       id: "wikipedia",
-      title: "Open Video in indivous", 
+      title: "Open video in Indivous", 
       contexts: ["link"], 
+      targetUrlPatterns: ["https://www.youtube.com/watch*"]
   })
 });
 
