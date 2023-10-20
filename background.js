@@ -15,7 +15,6 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 
-
 // Listener for context menu
 chrome.contextMenus.onClicked.addListener(function (info, tab) {
   // The URL that will be added to based on the selection
